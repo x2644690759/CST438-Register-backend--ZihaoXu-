@@ -211,6 +211,9 @@ public class JunitTestSchedule {
 		// verify that repository delete method was called.
 		verify(enrollmentRepository).delete(any(Enrollment.class));
 	}
+
+
+
 		
 	private static String asJsonString(final Object obj) {
 		try {
